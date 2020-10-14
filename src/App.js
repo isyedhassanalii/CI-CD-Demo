@@ -8,6 +8,7 @@ function App() {
   return (
     <div className="App">
       <Banner />
+      <h1>Changes to check CI/CD working</h1>
       <Row
         title="NETFLIX ORIGINALS"
         fetchUrl={requests.fetchNetflixOriginals}
